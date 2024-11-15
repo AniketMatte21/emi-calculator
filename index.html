@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="emi-calculator">
+    <h1 id="emi-calculator">EMI CALCULATOR</h1>
+    <div class="input-group">
+        <label for="loan-amount" >Loan Amount</label> <br>
+        <input type="range" id="loan-amount" min="50000" max="5000000" value="1000000" step="1"><br>
+        <span id="loan-amount-display">₹ 1,000,000</span>
+    </div>
+    <br><br>
+    <div class="input-group1">
+        <label for="interest-rate">Rate Of Interest(p.a)</label><br>
+        <input type="range" id="interest-rate" min="1" max="15" value="6.5" step="0.1"><br>
+        <span id="interest-rate-display">6.5%</span>
+    </div>
+    <br><br>
+    <div class="input-group2">
+        <label for="loan-tenure">Loan Tenure</label><br>
+        <input type="range" id="loan-tenure" min="1" max="30" value="5" step="0.1"><br>
+        <span id="loan-tenure-display">5 Yr</span>
+    </div>
+    <div class="result">
+        <h3>Monthly EMI:₹ <span id="emi-result">19,566</span></h3>
+    </div>
+    <canvas id="emi-chart" width="400" height="400"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+    
+    
+    
+    
+    
+</body>
+</html>

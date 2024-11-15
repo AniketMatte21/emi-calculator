@@ -1,0 +1,35 @@
+#emi-calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+input[type="range"] {
+    
+    background: #ddd; /* Track background color */
+    
+}
+.input-group{
+    text-align: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.input-group1{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-group2{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+.result{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
